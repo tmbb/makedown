@@ -1,14 +1,14 @@
 # Makedown
 
 Makedown is a markdown implementation compatible with [ExDoc](https://github.com/elixir-lang/ex_doc)
-that uses [Makeup](https://github.com/elixir-lang/ex_doc) to highlight code blocks.
+that uses [Makeup](https://hex.pm/packages/makeup) to highlight code blocks.
 It is just `Earmark` with a custom code rendering function. 
 
 Besides the main `Markdown` module, the application also contains an `ExDoc`-compatible markdown implementation so you can use it on your project's docs.
 
 ## Installation
 
-The package [available in Hex](https://hex.pm/docs/publish).
+The package [available in Hex](https://hex.pm/packages/makedown).
 It can be installed by adding `makedown` to your list of dependencies in `mix.exs`:
 
 ```elixir
