@@ -40,8 +40,8 @@ defmodule Makedown.ExDoc do
 
   defp hljs_proof_code(html) do
     html
-    |> String.replace("<pre><code>", "<code class=\"makeup-code-block\">")
-    |> String.replace("</pre><code>", "<code>")
+    |> String.replace("<pre><code>", "<pre><code class=\"nohighlight makeup\">")
+    |> String.replace("<pre><code class=\"elixir\">", "<pre><code class=\"nohighlight makeup\">")
   end
 
   @doc false
