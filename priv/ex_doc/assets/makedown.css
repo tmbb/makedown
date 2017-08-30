@@ -55,7 +55,7 @@ code.makeup {
 .makeup .nc {color: #5c35cc; } /* Tok.name_class */
 .makeup .nd {color: #5c35cc; font-weight: bold; } /* Tok.name_decorator */
 .makeup .ne {color: #cc0000; font-weight: bold; } /* Tok.name_exception */
-.makeup .nf {color: #000000; } /* Tok.name_function */
+.makeup .nf {color: #ce5c00; } /* Tok.name_function */
 .makeup .ni {color: #ce5c00; } /* Tok.name_entity */
 .makeup .nl {color: #f57900; } /* Tok.name_label */
 .makeup .nn {color: #000000; } /* Tok.name_namespace */

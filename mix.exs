@@ -4,7 +4,7 @@ defmodule Makedown.Mixfile do
   def project do
     [
       app: :makedown,
-      version: "0.1.1",
+      version: "0.2.0",
       elixir: "~> 1.4",
       start_permanent: Mix.env == :prod,
       deps: deps(),
@@ -44,9 +44,9 @@ defmodule Makedown.Mixfile do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:makeup, "~> 0.1.3"},
+      {:makeup, "~> 0.2.0"},
       {:earmark, "~> 1.1"},
-      {:ex_doc, "~> 0.14", only: :dev, runtime: false}
+      {:ex_doc, "~> 0.16.3", only: :dev, runtime: false}
       #{:ex_doc, github: "elixir-lang/ex_doc", only: :dev, runtime: false}
     ]
   end
