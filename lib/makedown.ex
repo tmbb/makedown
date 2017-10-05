@@ -19,7 +19,9 @@ defmodule Makedown do
       |> Enum.join("\n")
       |> Makeup.highlight_inner_html(lexer: lang)
     else
-      Enum.join(lines, "\n")
+      lines
+      |> Enum.join("\n")
+      |> HtmlEntities.encode
     end
   end
 

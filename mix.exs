@@ -46,6 +46,7 @@ defmodule Makedown.Mixfile do
     [
       {:makeup, "~> 0.2.0"},
       {:earmark, "~> 1.1"},
+      {:html_entities, "~> 0.3.0"},
       {:ex_doc, "~> 0.16.3", only: :dev, runtime: false}
       #{:ex_doc, github: "elixir-lang/ex_doc", only: :dev, runtime: false}
     ]
